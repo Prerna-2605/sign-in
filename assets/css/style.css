@@ -31,7 +31,7 @@ section {
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 100%;
     padding-left: 12px;
     padding-right: 12px;
     margin-left: auto;
@@ -54,16 +54,9 @@ section {
     display: flex;
 }
 
-.centre {
-    align-items: center;
-    justify-content: center;
-}
-
 .fd {
     flex-direction: column;
 }
-
-/* .flex-column{} */
 
 .col-6 {
     width: 50%;
@@ -236,4 +229,51 @@ button:hover {
 
 .items-center {
     align-items: center;
+}
+
+.in-centre {
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    height: 499.29px;
+    width: 499.29px;
+    border-radius: 50%;
+    background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+}
+
+.white-circle {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    transition: box-shadow 100ms linear;
+}
+
+.white-circle:hover{
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.left-10 {
+    left: -10%;
+}
+
+.circle-1 {
+    transform: translateY(-30%);
+}
+
+.circle-2 {
+    transform: translateY(-35%);
+    bottom: 50%;
+}
+
+.circle-3 {
+    top: 50%;
+    transform: translateY(35%);
+}
+
+.circle-4 {
+    bottom: 0;
+    transform: translateY(35%);
 }
